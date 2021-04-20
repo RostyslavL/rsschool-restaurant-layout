@@ -52,6 +52,8 @@ body{
 .clearfix{
     clear: both;
 }
+
+/* Header */
 header{
     font-family: 'Yeseva One', cursive;
     position: absolute;
@@ -79,8 +81,9 @@ nav .nav-menu{
 }
 .nav-menu li a{
     text-decoration: none;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'GentiumBookBasic', serif;
     font: 21px;
+    font-weight: bold;
     padding: 48px 25px;
     display: block;
     border-top: 5px solid transparent;
@@ -106,7 +109,7 @@ nav .nav-menu{
     text-align: center;
 }
 .section-1{
-    background-image: url('/images/BgTop.png');
+    background-image: url('/images/bg-top.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 230px 0 150px 0;
@@ -179,4 +182,48 @@ nav .nav-menu{
     color: #4c4c4c;
     margin-bottom: 52px;
     
+}
+
+/* Section 3 : Fine Ingedients */
+.float-right{
+    float: right;
+}
+.fine-ingedients{
+    background-image: url('/images/bg-ingridients.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.fine-ingedients-content{
+    background-color: #111;
+    opacity: .7;
+    color: #fff;
+    padding: 80px 45px 80px 45px;
+    text-align: center;
+    margin: 100px 0;
+}
+.fine-ingedients-content h3{
+    font-family: 'YesevaOne';
+    color: #fff;
+    font-size: 	36px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.fine-ingedients-content p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 66px;
+}
+.fine-ingedients-content-inner{
+    opacity: 1;
+}
+.fine-ingedients-content ul li{
+    float: left;
+    margin: 0 14px;
+}
+
+.fine-ingedients-content-inner ul img{
+    border-radius: 50%;
+    border: 5px solid #353230;
 }
