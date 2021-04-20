@@ -23,3 +23,133 @@ body{
     font-size: 15px;
     font-family: 'Yeseva One ', cursive;
 }
+
+.row{
+    position: relative;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.col-1 {width: 8.33%; float: left; }
+.col-2 {width: 16.66%;float: left;}
+.col-3 {width: 25%;   float: left;}
+.col-4 {width: 33.33%;float: left;}
+.col-5 {width: 41.66%;float: left;}
+.col-6 {width: 50%;   float: left;}
+.col-7 {width: 58.33%; float: left;}
+.col-8 {width: 66.66%; float: left;}
+.col-9 {width: 75%;    float: left;}
+.col-10{width: 83.33%;float: left;}
+.col-11{width: 91.66%;float: left;}
+.col-12{width: 100%; }
+
+.global-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Clear Floats */
+.clearfix{
+    clear: both;
+}
+header{
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+}
+header h1{
+    font-family: 'Yeseva One', cursive;
+    color: rgba(255,255,255,255);
+    font-size: 46px;
+}
+
+ul,ol{
+    list-style: none;
+}
+nav{
+    text-align: right;
+}
+nav .nav-menu{
+    display: inline-block;
+}
+.nav-menu li{
+    float: left;
+}
+.nav-menu li a{
+    text-decoration: none;
+    font-family: 'Gentium Book Basic', serif;
+    font: 21px;
+    padding: 48px 25px;
+    display: block;
+    border-top: 5px solid transparent;
+    color: #f4f3f4;
+    font-weight: 600; 
+    
+}
+.nav-menu li a:hover{
+    border-top: 5px solid  #cecabb; 
+}
+
+.nav-menu li.social-icon a{
+    padding: 48px 8px;
+    color: #dab33e;
+}
+
+.nav-menu li.social-icon a:hover{
+    border-top: 5px solid transparent;
+}
+
+/* Slider */
+.text-center{
+    text-align: center;
+}
+.slider{
+    background-image: url('/images/BgTop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0 150px 0;
+}
+.slider .caption h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    color: #fff;
+    line-height: 100px;
+    margin-bottom: 52px;
+}
+.slider-btn{
+    margin-top: 30px;
+}
+.btn{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #999;
+    padding: 14px 22px;
+    display: inline-block;
+    margin: 0 15px;
+    border: 1px solid transparent;
+}
+.btn-black{
+    opacity: .5;
+    background: #000;
+    transition: .5s  opacity ease-in-out;
+    color: #fff;
+}
+.btn-black:hover{
+    opacity: 1;
+    background: #000;
+    color: #fff;
+}
+.btn-transparent{
+    border-color: #d8d2c3;
+    background: #cfbb6e;
+    color: #fff;
+    opacity: .7;
+    transition: .5s opacity ease-in-out;
+}
+
+.btn-transparent:hover{
+    background: #cfbb6e;
+    color: #fff;
+    opacity: 1;
+}
