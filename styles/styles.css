@@ -66,7 +66,10 @@ header h1{
     color: rgba(255,255,255,255);
     font-size: 46px;
 }
-
+main{
+    height: 758px;
+    width: 1600px;
+}
 ul,ol{
     list-style: none;
 }
@@ -163,7 +166,7 @@ nav .nav-menu{
 /* Section 2 : Just the right food */
 
 .right-food{
-    background-image: url('/images/Section_2_Background.png');
+    background-image: url('/images/section_2_background.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -231,10 +234,10 @@ nav .nav-menu{
 /* Section 4 : Menu */
 
 .menu{
-    background-image: url('/images/Menu_Background.png');
+    background-image: url('/images/menu_background.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 100px 0 ;
+    padding: 100px 0 90px 0;
 }
 .menu-content {
     max-width: 430px;
@@ -272,4 +275,40 @@ nav .nav-menu{
 }
 .margin-top-70{
     margin-top: 70px;
+}
+
+/* Section 5 : Review */
+.review{
+    background-image: url('/images/reviews_background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px 0 ;
+}
+
+.review-content{
+    
+    max-width: 630px;
+    margin: 0 auto;
+    background: #000;
+    padding: 72px 50px;
+    font-size: 25px;
+    color: #fff;
+    line-height: 42px;
+    font-family: 'YesevaOne';
+
+    opacity: .7;   
+}
+.review-author{
+    font-family: 'GentiumBookBasic', serif;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.client-review{
+    position: relative;
+}
+.client-review i{
+    position: absolute;
+    margin-left: -5px;
+    left: 0;
+    margin-top: -6px;
 }
