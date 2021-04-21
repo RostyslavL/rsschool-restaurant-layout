@@ -96,7 +96,7 @@ nav .nav-menu{
     text-align: center;
 }
 .section-1{
-    background-image: url('/images/bg-top.png');
+    background-image: url('../images/bg-top.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 230px 0 150px 0;
@@ -150,7 +150,7 @@ nav .nav-menu{
 /* Section 2 : Just the right food */
 
 .right-food{
-    background-image: url('/images/section_2_background.png');
+    background-image: url('../images/section_2_background.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -176,7 +176,7 @@ nav .nav-menu{
     float: right;
 }
 .fine-ingedients{
-    background-image: url('/images/bg-ingridients.png');
+    background-image: url('../images/bg-ingridients.png');
     background-repeat: no-repeat;
     background-size: 100%;
    
@@ -218,7 +218,7 @@ nav .nav-menu{
 /* Section 4 : Menu */
 
 .menu{
-    background-image: url('/images/menu_background.png');
+    background-image: url('../images/menu_background.png');
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 100px 0 90px 0;
@@ -264,7 +264,7 @@ nav .nav-menu{
 
 /* Section 5 : Review */
 .review{
-    background-image: url('/images/reviews_background.png');
+    background-image: url('../images/reviews_background.png');
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 100px 0 ;
