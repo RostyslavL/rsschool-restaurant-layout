@@ -163,7 +163,7 @@ nav .nav-menu{
 /* Section 2 : Just the right food */
 
 .right-food{
-    background-image: url('/images/Section_Background_2.png');
+    background-image: url('/images/Section_2_Background.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -213,7 +213,7 @@ nav .nav-menu{
     font-size: 16px;
     line-height: 24px;
     margin-top: 20px;
-    margin-bottom: 66px;
+    margin-bottom: 50px;
 }
 .fine-ingedients-content-inner{
     opacity: 1;
@@ -226,4 +226,50 @@ nav .nav-menu{
 .fine-ingedients-content-inner ul img{
     border-radius: 50%;
     border: 5px solid #353230;
+}
+
+/* Section 4 : Menu */
+
+.menu{
+    background-image: url('/images/Menu_Background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px 0 ;
+}
+.menu-content {
+    max-width: 430px;
+    margin: 0 auto;
+}
+.menu-content ul{
+    margin: 10px 0 15px;
+}
+.menu-content .menu-item{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 600;
+    float: left;
+    width: 90%;
+    text-align: left;
+}
+.menu-content .price{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 600;
+    float: left;
+    width: 10%;
+    text-align: right;
+}
+
+.menu-content .menu-title{
+    border-bottom: 1px solid #cc9900;
+    padding: 5px 0;
+    font-family: 'Lato', italic;
+}
+.menu-content h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #cc9900;  
+}
+.margin-top-70{
+    margin-top: 70px;
 }
