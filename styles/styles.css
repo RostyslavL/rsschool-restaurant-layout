@@ -362,3 +362,41 @@ nav .nav-menu{
     font-size: 16px;
     border: none;
 }
+footer{
+    background: #191919;
+    color: #fff;
+    overflow: hidden;
+}
+footer h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    margin-bottom: 22px;
+}
+footer img{
+    margin-bottom: 21px;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25pxs;
+}
+footer ul {
+    display: inline-block;
+    margin-top: 30px;
+}
+footer ul li{
+    float: left;
+    list-style: none;
+    padding: 0 3px;
+}
+footer li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 13px;
+    display: block;
+}
+footer ul li img{
+    height: 21px;
+    width: 16px;
+    padding: 0 13px;
+}
