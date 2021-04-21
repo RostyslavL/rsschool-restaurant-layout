@@ -1,25 +1,9 @@
-/* fonts */
-
-@font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-}
-@font-face {
-    font-family: 'Yeseva One ', cursive;
-    src: url("/fonts/YesevaOne-Regular_v2.otf");
-}
-@font-face {
-    font-family: 'Gentium Book Basic', serif;
-    src: url("/fonts/GenBasB.ttf");
-    src: url("/fonts/GenBasBI.ttf");
-    src: url("/fonts/GenBasI.ttf");
-    src: url("/fonts/GenBasR.ttf");
-  }
-body{
-    background: #fafafa;
+*{
     margin: 0;
     padding: 0;
+}
+body{
+    background: #fafafa;s
     font-size: 15px;
     font-family: 'Yeseva One ', cursive;
 }
@@ -363,6 +347,7 @@ nav .nav-menu{
     border: none;
 }
 footer{
+    padding-top: 52px;
     background: #191919;
     color: #fff;
     overflow: hidden;
