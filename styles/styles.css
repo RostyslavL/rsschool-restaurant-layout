@@ -3,11 +3,10 @@
     padding: 0;
 }
 body{
-    background: #fafafa;s
+    background: #fafafa;
     font-size: 15px;
     font-family: 'Yeseva One ', cursive;
 }
-
 .row{
     position: relative;
 }
@@ -96,7 +95,7 @@ nav .nav-menu{
     text-align: center;
 }
 .section-1{
-    background-image: url('/images/bg-top.png');
+    background-image: url('../images/bg-top.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 230px 0 150px 0;
@@ -135,7 +134,6 @@ nav .nav-menu{
 }
 .btn-transparent{
     border-color: #d8d2c3;
-    background: #cfbb6e;
     color: #fff;
     opacity: .7;
     transition: .5s opacity ease-in-out;
@@ -150,7 +148,7 @@ nav .nav-menu{
 /* Section 2 : Just the right food */
 
 .right-food{
-    background-image: url('/images/section_2_background.png');
+    background-image: url('../images/section_2_background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -176,7 +174,7 @@ nav .nav-menu{
     float: right;
 }
 .fine-ingedients{
-    background-image: url('/images/bg-ingridients.png');
+    background-image: url('../images/bg-ingridients.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
    
@@ -194,7 +192,6 @@ nav .nav-menu{
     color: #fff;
     font-size: 	36px;
     margin-bottom: 16px;
-    font-weight: bold;
 }
 .fine-ingedients-content p{
     font-size: 16px;
@@ -218,7 +215,7 @@ nav .nav-menu{
 /* Section 4 : Menu */
 
 .menu{
-    background-image: url('/images/menu_background.png');
+    background-image: url('../images/menu_background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 100px 0 90px 0;
@@ -264,7 +261,7 @@ nav .nav-menu{
 
 /* Section 5 : Review */
 .review{
-    background-image: url('/images/reviews_background.png');
+    background-image: url('../images/reviews_background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 100px 0 ;
@@ -384,4 +381,8 @@ footer ul li img{
     height: 21px;
     width: 16px;
     padding: 0 13px;
+}
+
+.col-4 p{
+    font-weight: bold;
 }
